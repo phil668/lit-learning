@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit + TS</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/motion-carousel.ts"></script>
+    <style>
+      motion-carousel {
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <motion-carousel curIndex="0" class="shadow">
+      <img src="./src/assets/pexels-cátia-matos-1072179.jpg" alt="" />
+      <img
+        src="./src/assets/pexels-eberhard-grossgasteiger-1287145.jpg"
+        alt=""
+      />
+      <img src="./src/assets/pexels-lumn-167699.jpg" alt="" />
+      <img src="./src/assets/pexels-maxime-francis-2246476.jpg" alt="" />
+    </motion-carousel>
+  </body>
+</html>

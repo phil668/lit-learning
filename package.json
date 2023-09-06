@@ -1,0 +1,21 @@
+{
+  "name": "lit-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^2.7.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.41.0",
+    "eslint": "^8.48.0",
+    "typescript": "^5.0.2",
+    "unocss": "^0.55.7",
+    "vite": "^4.4.5"
+  }
+}
