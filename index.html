@@ -14,7 +14,7 @@
     </style>
   </head>
   <body>
-    <motion-carousel curIndex="0" class="shadow">
+    <motion-carousel curIndex="1" class="shadow" >
       <img src="./src/assets/pexels-cátia-matos-1072179.jpg" alt="" />
       <img
         src="./src/assets/pexels-eberhard-grossgasteiger-1287145.jpg"
@@ -23,5 +23,13 @@
       <img src="./src/assets/pexels-lumn-167699.jpg" alt="" />
       <img src="./src/assets/pexels-maxime-francis-2246476.jpg" alt="" />
     </motion-carousel>
+
+    <script>
+      const carousel = document.querySelector('motion-carousel')
+      console.log('carousel', carousel)
+      carousel.addEventListener('change', (e) => {
+        console.log('e', e)
+      })
+    </script>
   </body>
 </html>
